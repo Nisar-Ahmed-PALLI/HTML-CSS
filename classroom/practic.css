@@ -1,0 +1,27 @@
+body{
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik Gemstones", system-ui;
+}
+
+div{  
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    animation-name: nisar;
+    animation-duration: 3s;
+    animation-timing-function: ease-in 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes nisar{
+    from{font-size: 20px;}
+    to{font-size: 60px;
+    width: 100px;
+    height: 100px;
+    color: rgb(5, 244, 45);
+    } 
+}

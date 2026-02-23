@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    text-align: center;
+}
+H1{
+    color:red;
+    background-color: black;
+}
+
+.containor{
+    display: flex;
+    justify-content: center;
+    height: 420px;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 300px;   
+    border: 2px solid rgb(178, 225, 6);
+    background-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+img{
+    width: 50px;
+    border-radius: 5px ;
+    border: 1px solid black;
+    transition: 0.5s ease-in;
+    opacity: 0.6;
+    cursor: pointer;
+    height: 400px;
+    margin-top: 10px;
+    
+}
+
+
+.one{
+    width: 80px;
+}
+.one:hover{
+    width: 270px;
+    opacity: 1;
+}
+
+.two:hover{
+    width: 270px;
+    opacity: 1;
+}
+
+.three:hover{
+    width: 270px;
+    opacity: 1;
+}
+
+.four:hover{
+    width: 290px;
+    opacity: 1;
+}
+
+.five:hover{
+    width:270px ;
+    opacity: 1;
+}
+

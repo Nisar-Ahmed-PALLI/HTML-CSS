@@ -1,0 +1,65 @@
+body{
+    margin-left: 300px;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+     background: linear-gradient(45deg, green, yellow  );
+     width: 100vh;
+     height: 100vh;
+     
+      
+    
+}
+
+.one{
+   background: linear-gradient(135deg, orange 20%, cyan);
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    z-index: 0;
+  
+   
+    
+}
+
+.two{
+    background: linear-gradient(135deg, black 20%, cyan);
+    width: 350px;
+    height: 350px;
+    position: relative;
+    z-index: 1;
+    color:hotpink;
+    font-family: "Playfair Display", serif;
+}
+
+.two >h1{
+    padding: 20px;
+}
+
+.one >h2{
+    color: blue;
+    font-family: "Sofia", cursive;
+      font-weight: 200;
+      font-style: normal;
+
+}
+
+h3{
+    color: red;
+}
+
+.two:hover{
+    margin-left: 360px;
+    transition: 3s;
+}
+
+i{
+    color: black;
+}
+
+p{
+    color: brown
+}
+
+
+
